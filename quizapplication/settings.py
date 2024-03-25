@@ -158,10 +158,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-#CREATE STATIC FOLDER
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+
+
 
 # Login url
 LOGIN_URL = 'user_registration:user_login'
